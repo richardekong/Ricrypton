@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ricrypton</string>
+
+    <string name="filefragment">File</string>
+    <string name="fragment1">Encrypt Expression</string>
+    <string name="fragment2">Decrypt Expression</string>
+    <string name="encryptfilefrag">Encrypt File</string>
+    <string name="decryptfilefrag">Decrypt File</string>
+
+
+    <string name="Help">Help?</string>
+    <string name="action_settings">Settings</string>
+</resources>

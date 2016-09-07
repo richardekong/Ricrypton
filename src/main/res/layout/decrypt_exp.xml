@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+
+        <TextView android:text="     Expression:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <EditText android:id="@+id/Indecexp" android:layout_width="300dp" android:layout_gravity="center"
+            android:layout_height="150dp" android:background="#ffffff"
+            android:clickable="true" />
+        <Space android:layout_width="fill_parent" android:layout_height="50dp"/>
+
+        <TextView android:text="     Decrypted Expression:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <EditText android:id="@+id/decexp" android:layout_width="300dp" android:layout_gravity="center"
+            android:layout_height="150dp"
+            android:background="#ffffff"
+            android:clickable="true" />
+        <Space android:layout_width="fill_parent" android:layout_height="15dp"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="6"
+            android:rowCount="1"
+            android:layout_gravity="center"
+            >
+            <Button
+                android:id="@+id/btndec"
+                android:text="Decrypt"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#a0de0a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"/>
+            <Space android:layout_column="4" android:layout_width="20dp" android:layout_height="20dp"/>
+            <Button android:id="@+id/resetF2"
+                    android:text="Reset"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="#a0de0a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"/>
+        </GridLayout>
+
+        <Space android:layout_width="fill_parent" android:layout_height="50dp"/>
+    </LinearLayout>
+</ScrollView>
